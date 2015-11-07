@@ -1,6 +1,3 @@
-## WARNING
-This repo offers several version of the patch needed to enable CPU-specific compile option in the Linux kernel.  These are versioned based on which version of gcc you are using and also which version of the kernel you wish to build.
-
 #Kernel_gcc_patch
 
 This kernel patch adds additional CPU options to the Linux kernel accessible under:
@@ -138,6 +135,9 @@ Below are the differences in median values:
 ##Credit
 * Original author: jeroen AT linuxforge DOT net
 * Link to original version: http://www.linuxforge.net/docs/linux/linux-gcc.php
+
+## Legacy support
+Find support for older version of the linux kernel and of gcc in the outdated_versions directory.
 
 ##Data
 ###Sandybridge vs. Generic
