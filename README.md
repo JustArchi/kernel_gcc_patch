@@ -55,6 +55,10 @@ The kernel uses its own set of CFLAGS, KCFLAGS. For exmaple, see:
     <td>-march=btver2</td>
   </tr>
   <tr>
+    <td>Intel Silvermont family of low-power Atom processors (Silvermont)</td>
+    <td>-march=silvermont</td>
+  </tr>
+  <tr>
     <td>Intel 1st Gen Core i3/i5/i7-family (Nehalem)</td>
     <td>-march=nehalem</td>
   </tr>
@@ -79,8 +83,8 @@ The kernel uses its own set of CFLAGS, KCFLAGS. For exmaple, see:
     <td>-march=broadwell</td>
   </tr>
   <tr>
-    <td>Intel Silvermont family of low-power Atom processors (Silvermont)</td>
-    <td>-march=silvermont</td>
+    <td>Intel 6th Gen Core i3/i5/i7-family (Skylake)</td>
+    <td>-march=skylake</td>
   </tr>
 </table>
 
