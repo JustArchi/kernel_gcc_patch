@@ -52,6 +52,10 @@ The kernel uses its own set of CFLAGS, KCFLAGS. For exmaple, see:
     <td>-march=bdver3</td>
   </tr>
   <tr>
+    <td>Intel Bonnell family of low-power Atom processors (Bonnell)</td>
+    <td>-march=bonnell</td>
+  </tr>
+  <tr>
     <td>Intel Silvermont family of low-power Atom processors (Silvermont)</td>
     <td>-march=silvermont</td>
   </tr>
