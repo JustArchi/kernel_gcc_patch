@@ -36,6 +36,10 @@ The kernel uses its own set of CFLAGS, KCFLAGS. For exmaple, see:
     <td>-march=btver1</td>
   </tr>
   <tr>
+    <td>AMD Family 16h (Jaguar)</td>
+    <td>-march=btver2</td>
+  </tr>
+  <tr>
     <td>AMD Family 15h (Bulldozer)</td>
     <td>-march=bdver1</td>
   </tr>
@@ -46,10 +50,6 @@ The kernel uses its own set of CFLAGS, KCFLAGS. For exmaple, see:
   <tr>
     <td>AMD Steamroller Family 15h 30h-3fh models (Steamroller)</td>
     <td>-march=bdver3</td>
-  </tr>
-  <tr>
-    <td>AMD Family 16h (Jaguar)</td>
-    <td>-march=btver2</td>
   </tr>
   <tr>
     <td>Intel Silvermont family of low-power Atom processors (Silvermont)</td>
